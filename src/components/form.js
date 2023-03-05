@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Card = styled.div`
+const Card = styled.div`
 box-sizing: border-box;
 max-width: 410px;
 margin: 0 auto;
@@ -10,27 +10,27 @@ flex-direction: column;
 align-items: center;
 `;
 
-export const Form = styled.form`
+const Form = styled.form`
 display: flex;
 flex-direction: column;
 width: 100%;
 `;
 
-export const EmailInput = styled.input`
+const EmailInput = styled.input`
 padding: 1rem;
 border: 1px solid #999;
 margin-bottom: 1rem;
 font-size: 0.8rem;
 `;
 
-export const PassInput = styled.input`
+const PassInput = styled.input`
 padding: 1rem;
 border: 1px solid #999;
 margin-bottom: 1rem;
 font-size: 0.8rem;
 `;
 
-export const Button = styled.button`
+const Button = styled.button`
 background: linear-gradient(to bottom, #6371c7, #5563c1);
 border-color: #3f4eae;
 border-radius: 3px;
@@ -42,3 +42,5 @@ margin-bottom: 1rem;
 font-size: 0.8rem;
 cursor: pointer;
 `;
+
+export { Card, Form, EmailInput, PassInput, Button };
